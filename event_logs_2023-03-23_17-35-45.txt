@@ -1,0 +1,73 @@
+{
+"Private Header": {
+    "Section Version":          "1",
+    "Sub-section type":         "0",
+    "Created by":               "0x494F",
+    "Created at":               "01/01/1970 00:33:35",
+    "Committed at":             "01/01/1970 00:33:52",
+    "Creator Subsystem":        "PHYP",
+    "CSSVER":                   "",
+    "Platform Log Id":          "0x820000A3",
+    "Entry Id":                 "0x500003B9",
+    "BMC Event Log Id":         "86"
+},
+"User Header": {
+    "Section Version":          "1",
+    "Sub-section type":         "0",
+    "Log Committed by":         "0x4552",
+    "Subsystem":                "System Hypervisor Firmware",
+    "Event Scope":              "Single Partition",
+    "Event Severity":           "Unrecoverable Error",
+    "Event Type":               "Not Applicable",
+    "Action Flags": [
+                                "Service Action Required",
+                                "Report Externally",
+                                "HMC Call Home"
+    ],
+    "Host Transmission":        "Not Sent",
+    "HMC Transmission":         "Not Sent"
+},
+"Primary SRC": {
+    "Section Version":          "1",
+    "Sub-section type":         "0",
+    "Created by":               "0x4552",
+    "SRC Version":              "0x02",
+    "SRC Format":               "0x00",
+    "Virtual Progress SRC":     "False",
+    "I5/OS Service Event Bit":  "False",
+    "Hypervisor Dump Initiated":"False",
+    "Valid Word Count":         "0x04",
+    "Reference Code":           "B2001020",
+    "Extended Reference Code":  "LP 04097",
+    "Hex Word 2":               "02000000",
+    "Hex Word 3":               "00000000",
+    "Hex Word 4":               "00000012",
+    "Callout Section": {
+        "Callout Count":        "1",
+        "Callouts": [{
+            "FRU Type":         "Symbolic FRU",
+            "Priority":         "Medium Priority",
+            "Part Number":      "NEXTLVL"
+        }]
+    }
+},
+"Extended User Header": {
+    "Section Version":          "1",
+    "Sub-section type":         "0",
+    "Created by":               "0x4552",
+    "Reporting Machine Type":   "9105-42A",
+    "Reporting Serial Number":  "783C4C1",
+    "FW Released Ver":          "QL1030_045",
+    "FW SubSys Version":        "00040A0308C60008",
+    "Common Ref Time":          "00/00/0000 00:00:00",
+    "Symptom Id Len":           "28",
+    "Symptom Id":               "B2001020_02000000_IPLCOMP"
+},
+"Failing MTMS": {
+    "Section Version":          "1",
+    "Sub-section type":         "0",
+    "Created by":               "0x4552",
+    "Machine Type Model":       "9105-42A",
+    "Serial Number":            "783C4C1"
+}
+}
